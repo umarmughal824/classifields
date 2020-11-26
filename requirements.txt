@@ -1,0 +1,10 @@
+Babel==2.9.0
+Django==2.2
+django-bootstrap-form==3.4
+django-classified==0.9
+django-filter==2.4.0
+Pillow==8.0.1
+pytz==2020.4
+sorl-thumbnail==12.6.3
+sqlparse==0.4.1
+Unidecode==1.1.1
