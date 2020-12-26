@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     
     # Django Classified
     'django_classified',
+    'prizebond',
 ]
 SITE_ID=1
 
@@ -138,3 +139,6 @@ STATIC_ROOT = "staticfiles"
 STATICFILES_DIRS = (
     os.path.normpath(os.path.join(BASE_DIR, "static")),
 )
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
